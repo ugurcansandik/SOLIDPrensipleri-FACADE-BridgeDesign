@@ -6,8 +6,13 @@ using System.Threading.Tasks;
 
 namespace SOLID
 {
-    internal class TextFile : IFile
+    internal class TextFile : IFileSave, IFileRead
     {
+        public void ReadToFile()
+        {
+            //read text file
+        }
+
         public override void SaveToFile(Customer customer)
         {
             //save text file

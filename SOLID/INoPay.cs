@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace SOLID
 {
-    internal abstract class IFile
+    internal interface INoPay
     {
-        public abstract void SaveToFile(Customer customer);
+        void NoPay();
     }
 }
