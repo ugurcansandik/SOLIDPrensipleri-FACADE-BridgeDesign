@@ -15,3 +15,9 @@ Interface Segregation Principle (ISP)
 
 Dependency Inversion Principle (DIP)
 	Üst seviye sınıflar alt seviye sınıflara bağlı olmamalıdır. Abstraction veya interface kullanarak ilişki sağlanmalıdır. Bunu projemde gösteremedim ancak üst sınıf bir nesnenin constructorında alt sınıf bir nesne oluşturuluyorsa bu durumu çiğnemiş oluyoruz. Bir interface oluşturup alt sınıfın onu implement etmesini sağlayarak önüne geçebiliriz.
+
+BRIDGE DESIGN PATTERN
+	Implementasyonları clienttan ayırmak için kullanılan bir design patterndir. İki yapıyı da bağımsız olarak geliştirmemize olanak tanır.
+	
+FACADE DESIGN PATTERN
+	Facade Design Pattern birden fazla sınıfı tek bir çatı altında toplayarak kullanım kolaylığı sunan bir design patterndir.
